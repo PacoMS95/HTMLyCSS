@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+table, th, td {
+	border: double 1px #FF8AF0;
+	text-align: center;
+}
+
+a:link {
+	color: #FF8AF0;
+}
+
+a:visited, a:hover {
+	color: #AD5784;
+}
+
+caption {
+	color: #AD5784;
+	font-size: large;
+}
+
+img {
+	height: 200px;
+	width: 150px;
+}
+
+aside {
+	float: left;
+}
+
+.redimensionarPeppa {
+	height: 200px;
+	width: 120px;
+}
+
+.redimensionarOsito {
+	height: 200px;
+	width: 200px;
+}
+
+h1 {
+	font-size: xx-large;
+	color: #AD5784;
+	text-align: center;
+}
+
+fieldset {
+	background-color: #FF8AF0;
+}
+
+.ovillo {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	text-align: justify;
+}
+
+body {
+	
+	background-color: #2ECCFA;
+}

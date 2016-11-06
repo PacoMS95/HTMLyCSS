@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--Crea un sitio web de un negocio virtual (real o imaginario) que contenga
+una página de presentación desde la que se pueda acceder a una página de
+inscripción con un formulario, a otra página con una tabla de productos
+o servicios que se ofrecen y otra página con un texto largo que contenga
+las condiciones de uso y contenga enlaces a distintos puntos del texto.
+Puedes añadir más páginas si quieres. Todas las páginas deben contener
+un enlace para volver a la página de inicio. En la parte superior a la
+derecha habrá una banderita con un enlace. Si lo pulsamos nos mostrará
+la misma página en inglés, y si pulsamos el enlace en la página en
+inglés nos la mostrará en español. Cuando cambiemos de idioma, los
+enlaces nos dirigirán a páginas en el mismo idioma. Tiene que haber al
+menos un archivo CSS que compartirán las mismas páginas en distintos
+idiomas.-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="stylesheet" type="text/css" href="Hoja de estilo.css">
+</head>
+<body>
+	<p>¡Hola! Rellene los siguientes campos para saber qué amigurumi te
+		gustaría que te haga.</p>
+	<div>
+		<form action="" method="get">
+			<fieldset>
+				<legend>Pida su Amigurumi personalizado</legend>
+				<p>Todos los campos son obligatorios</p>
+				<pre>Nombre:</pre>
+				<input type="text" maxlength="20" /> </br>
+				<pre>Apellido/s:</pre>
+				<input type="text" maxlength="30" /> </br>
+				<pre>Sexo</pre>
+				<input type="radio" name="sexo" checked="checked">Hombre</input></br>
+				<input type="radio" name="sexo">Mujer</input><br/>
+				<pre>Observaciones (máximo 500 caracteres)</pre>
+				<textarea rows="10" cols="45" maxlength="500"></textarea>
+				<br/> <br/> <input type="reset" value="Reset" /><input type="submit"
+					value="Enviar" />
+			</fieldset>
+		</form>
+	</div>
+	<a href="index.html">VOLVER</a>
+</body>
+</html>
