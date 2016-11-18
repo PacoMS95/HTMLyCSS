@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+table, th, td {
+	border: double 1px #FF8AF0;
+}
+
+caption {
+	color: #AD5784;
+	font-size: large;
+}
+
+img {
+	height: 200px;
+	width: 150px;
+}
