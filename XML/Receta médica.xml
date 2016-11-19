@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receta>
+	<tipo>Roja</tipo>
+	<medico numerocolegiado="55555">Pepito Pérez</medico>
+	<fecha_prescripción>12/12/12</fecha_prescripción>
+	<medicamento tipo="principal">
+		<nombre>Frenadol</nombre>
+		<marca>Bayer</marca>
+		<presentacion>sobres</presentacion>
+	</medicamento>
+	<medicamento tipo="secundario">
+		<nombre>Ibuprofeno</nombre>
+		<marca>Genérica</marca>
+		<presentacion>sobres</presentacion>
+	</medicamento>
+	<medicamento tipo="terciario">
+		<nombre>Colofón</nombre>
+		<marca>Bayer</marca>
+		<presentacion>sobres</presentacion>
+	</medicamento>
+</receta>
